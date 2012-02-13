@@ -1,7 +1,7 @@
 {{extend 'layout.html'}}
 
 <hr />
-<h2>{{=T("Simpel Mail Sistem")}}</h2>
+<h2>{{=T("Simpel Private Messaging Sistem")}}</h2>
 
 <ul>
   <li>{{=T('This is simpel mail system written on web2py web-based python framework')}}</li>

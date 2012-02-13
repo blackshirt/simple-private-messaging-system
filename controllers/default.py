@@ -37,8 +37,8 @@ def create():
 #def create():
 #    return dict(form=crud.create(db.message))
 
-#def truncate():
-    #return db.message.truncate()
+def truncate():
+    return db.message.truncate()
         
 @auth.requires_login()    
 def read():

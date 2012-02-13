@@ -81,3 +81,6 @@ success!
 DELETE FROM message;
 DELETE FROM sqlite_sequence WHERE name='message';
 success!
+DELETE FROM message;
+DELETE FROM sqlite_sequence WHERE name='message';
+success!

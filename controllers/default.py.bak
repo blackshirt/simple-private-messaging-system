@@ -26,7 +26,7 @@ def outbox():
     
 @auth.requires_login()        
 def create():
-    form=SQLFORM(db.message)
+    form=crud.create(db.message)
     if form.accepts(request.vars, session):
         session.flash='Record inserted'
         redirect(URL(r=request,f='inbox'))
