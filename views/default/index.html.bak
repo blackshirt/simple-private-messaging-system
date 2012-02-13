@@ -1,0 +1,10 @@
+{{extend 'layout.html'}}
+
+<hr />
+<h2>{{=T("Simpel Mail Sistem")}}</h2>
+
+<ul>
+  <li>{{=T('This is simpel mail system written on web2py web-based python framework')}}</li>
+  <li>{{=T('Written by blackshirt@fastmail.fm')}}</li>
+  <li>{{=T('This code licensed under GPLv2.0, and you can modify this application and adapt it to your needs')}}</li>
+</ul>

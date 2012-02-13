@@ -1,0 +1,4 @@
+{{extend 'layout.html'}}
+{{=request.args(0)}}
+{{=form}}
+{{pass}}

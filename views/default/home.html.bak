@@ -1,0 +1,9 @@
+{{left_sidebar_enabled=right_sidebar_enabled=False}}
+{{extend 'layout.html'}}
+
+<h2>Your Message</h2>
+<ul>
+{{for message in messages:}}
+<li>{{=A(message.subject, _href=URL(r=request, f='read', args=message.id))}}</li>
+{{pass}}
+</ul>
